@@ -1,0 +1,16 @@
+html{
+    font-size: 16px;
+}
+
+.head-container{
+    padding-block: 3rem;
+}
+
+.acessibility{
+    display: flex;
+    gap: clamp(0.8rem, 0.5rem + 1vw, 1.5rem);
+    margin: clamp(0.8rem, 0.5rem + 1vw, 1.5rem) 0;
+    padding: clamp(0.8rem, 0.5rem + 1vw, 1.5rem) 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
