@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.sticky {
+  z-index: 150;
+  transform: rotate(3deg);
+  width: clamp(16rem, 14rem + 8vw, 20rem);
+  min-height: clamp(8rem, 7rem + 4vw, 10rem);
+  margin: clamp(-0.625rem, -0.5rem + 0.5vw, -0.25rem) clamp(0.625rem, 0.5rem + 0.5vw, 1rem) clamp(0.625rem, 0.5rem + 0.5vw, 1rem);
+  padding: clamp(1.2rem, 1rem + 0.8vw, 1.8rem);
+  font-family: 'Kalam', cursive, "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+  font-size: clamp(0.875rem, 0.8rem + 0.3vw, 1rem);
+  color: var(--color-text-primary);
+  background: var(--rough-notation-soft-yellow);
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.sticky:before, 
+.sticky:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: clamp(0.875rem, 0.75rem + 0.5vw, 1.125rem);
+  height: clamp(0.875rem, 0.75rem + 0.5vw, 1.125rem);
+  top: 0;
+  right: 0;
+}
+
+.sticky:before {
+  border-top: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) #fff;
+  border-right: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) #fff;
+  border-left: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) transparent;
+  border-bottom: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) transparent;
+}
+
+.sticky:after {
+  border-bottom: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) #dddd33;
+  border-left: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) #dddd33;
+  border-right: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) transparent;
+  border-top: solid clamp(0.4375rem, 0.375rem + 0.25vw, 0.5625rem) transparent;
+}
+
+.container-sticky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: clamp(2rem, 1.5rem + 2vw, 3rem);
+}
