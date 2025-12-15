@@ -15,7 +15,21 @@ html{
     border-bottom: 1px solid #f0f0f0;
 }
 
-.background-pattern svg.pattern{
+.background-pattern {
+    background-image: url("../svg/pattern.svg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+ 
+    top: 0;
+    left: 0;
     width: 100%;
-    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.head-container div.row div.col-12.col-sm-12.col-md-10.col-lg-10.col-xl-8.m-auto, .body-container div.row div.col-12.col-sm-12.col-md-10.col-lg-10.col-xl-8.m-auto{
+    position: relative;
+ 
+   
 }

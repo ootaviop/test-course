@@ -27,20 +27,20 @@ class RoughNotationCore {
     this.annotationMap = new Map();
     this.observer = null;
     this.shownElements = new Set();
-    this.viewportDelay = 500;
+    this.viewportDelay = 1000;
     
     const w = window.innerWidth;
     this.strokeWidth = w >= 1920 ? 3.2 : 2;
 
     const colors = {
-      solidOrange: "var(--rough-notation-solid-orange, #FF6B35)",
-      solidGreen: "var(--rough-notation-solid-green, #4CAF50)",
-      solidBlue: "var(--rough-notation-solid-blue, #2196F3)",
-      solidPurple: "var(--rough-notation-solid-purple, #9C27B0)",
-      solidRed: "var(--rough-notation-solid-red, #F44336)",
-      solidYellow: "var(--rough-notation-solid-yellow, #FFC107)",
+      solidOrange: "var(--orange-medium, #FF6B35)",
+      solidGreen: "var(--green-medium, #4CAF50)",
+      solidBlue: "var(--blue-medium, #2196F3)",
+      solidPurple: "var(--purple-medium, #9C27B0)",
+      solidRed: "var(--red-medium, #F44336)",
+      solidYellow: "var(--yellow-medium, #FFC107)",
       softOrange: "var(--rough-notation-soft-orange, rgba(255, 107, 53, 0.3))",
-      softGreen: "var(--rough-notation-soft-green, rgba(76, 175, 80, 0.3))",
+      softGreen: "var(--rough-notation-soft-green, rgba(192, 255, 106, 0.3))",
       softBlue: "var(--rough-notation-soft-blue, rgba(33, 150, 243, 0.3))",
       softPurple: "var(--rough-notation-soft-purple, rgba(156, 39, 176, 0.3))",
       softRed: "var(--rough-notation-soft-red, rgba(244, 67, 54, 0.3))",
@@ -75,7 +75,7 @@ class RoughNotationCore {
         type: "highlight",
         strokeWidth: this.strokeWidth,
         multiline: true,
-        animationDuration: 800,
+        animationDuration: 1200,
         color: colors.softYellow,
       },
       "cls-strike": {
@@ -123,7 +123,7 @@ class RoughNotationCore {
       (entries) => this.handleIntersection(entries),
       {
         threshold: 0.15,
-        rootMargin: "0px 0px -5% 0px"
+        rootMargin: "0px 0px -150px 0px"
       }
     );
 

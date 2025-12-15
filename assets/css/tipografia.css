@@ -63,3 +63,8 @@ p, .fs-p, span, .fs-span {
 	margin-top: var(--mt-sm);
 	margin-bottom: var(--mb-sm);
 }
+
+::selection {
+	background-color: var(--selection-bg-color);
+	color: white;
+}

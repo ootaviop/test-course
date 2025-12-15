@@ -1,6 +1,6 @@
 .class-format-001 {
 	/* Typography - Font Sizes */
-	--fs-h1: clamp(3rem, 2.7273rem + 1.0909vw, 3.6rem);
+	--fs-h1: clamp(3rem, 2.273rem + 1.0909vw, 3.6rem);
 	--fs-h2: clamp(2.25rem, 2.0455rem + 0.8182vw, 2.7rem);
 	--fs-h3: clamp(1.875rem, 1.7045rem + 0.6818vw, 2.25rem);
 	--fs-h4: clamp(1.5rem, 1.3636rem + 0.5455vw, 1.8rem);
@@ -45,7 +45,7 @@
 	/* Colors */
 	--color-text-primary: #333333;
 	--color-text-informative: #999999;
-	--color-readtime: #c0c0c0;
+	--color-readtime: #909090;
 	--color-border-bottom-breadcrumb: #dbdbdb;
 	--color-accent-primary: #FF6B35;
 	--color-accent-secondary: #FF8C5A;
@@ -68,7 +68,7 @@
 	/* Orange */
 	--orange-medium: #ff6e3f;
 	--orange-light: #ffefeb;
-	--orange-dark: #803c27;
+	--orange-dark: #bd4e2c;
 
 	/* Green */
 	--green-medium: #30d183;
@@ -88,9 +88,13 @@
 	--rough-notation-solid-red: #ff4757;
 	--rough-notation-solid-yellow: #ffcc00;
 	--rough-notation-soft-orange: rgba(255, 110, 63, 0.3);
-	--rough-notation-soft-green: rgba(48, 233, 177, 0.3);
+	--rough-notation-soft-green: rgba(139, 255, 220, 0.645);
 	--rough-notation-soft-blue: rgba(52, 116, 254, 0.3);
 	--rough-notation-soft-purple: rgba(156, 64, 255, 0.3);
 	--rough-notation-soft-red: rgba(255, 71, 87, 0.3);
 	--rough-notation-soft-yellow: rgba(255, 204, 0, 0.3);
+
+	/* Selection */
+	--selection-bg-color: #c9185ca5;
+	--selection-text-color: #ffffff;
 }

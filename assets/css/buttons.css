@@ -1,15 +1,10 @@
-.acessibility {
-
-}
-
-
-
 .acessibility .btn-acessibility {
     font-size: var(--fs-small);
     border: none;
     padding: .8rem 1.5rem;
     border-radius: 30px;
     min-width: 150px;
+    transition: all .3s ease-in-out;
 }
 
 .acessibility .btn-acessibility .lucide{
@@ -17,30 +12,39 @@
 }
 
 .acessibility .btn-pdf {
-    background-color: var(--purple-light);
+    background-color: var(--red-medium);
+      color: white;
 }
 
 .acessibility .btn-pdf:hover{
-    background-color: var(--purple-medium);
+    background-color: var(--red-dark);
     color: white;
+    scale: 1.03;
+    transition: all .3s ease;
 }
 
 .acessibility .btn-audio {
-    background-color: var(--blue-light);
+    background-color: var(--blue-medium);
+      color: white;
 }
 
 .acessibility .btn-audio:hover{
-    background-color: var(--blue-medium);
+    background-color: var(--blue-dark);
     color: white;
+        scale: 1.03;
+    transition: all .3s ease;
 }
 
 .acessibility .btn-braile {
-    background-color: var(--green-light);
+    background-color: var(--green-medium);
+      color: white;
 }
 
 .acessibility .btn-braile:hover{
-    background-color: var(--green-medium);
+    background-color: var(--green-dark);
     color: white;
+        scale: 1.03;
+    transition: all .3s ease;
 }
 
 

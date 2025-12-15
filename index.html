@@ -30,40 +30,28 @@
     <link rel="stylesheet" href="assets/css/hero.css" />
     <link rel="stylesheet" href="assets/css/boxes.css" />
     <link rel="stylesheet" href="assets/css/scroll-path.css" />
+    <link rel="stylesheet" href="assets/css/svg.css" />
   </head>
-  <body class="class-format-001 notebook-grid notebook-margin">
+  <body class="class-format-001">
     <script src="https://unpkg.com/lucide@latest"></script>
-    
-    <!-- SVG Container para a linha animada -->
-    <svg id="scroll-line-svg" class="scroll-path-svg" viewBox="0 0 1911.83 2863.66" preserveAspectRatio="none">
-      <!-- O path será desenhado dinamicamente pelo JavaScript -->
-      <path id="drawn-path" 
-        stroke="#D5D5D5" 
-        stroke-width="5" 
-        stroke-dasharray="20 10"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        fill="none"/>
-      <!-- Marcador que percorre o caminho (invisível) -->
-      <circle id="path-marker" r="4" fill="#D5D5D5" style="opacity: 0;"/>
-    </svg>
 
-  
-    
     <div class="background-pattern">
       <div class="container head-container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
             <div>
               <div class="sec-breadcrumb">
-                <nav class="breadcrumb" aria-label="Breadcrumb" style="">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
                   <a href="#" class="breadcrumb-item">Início</a>
                   <span class="breadcrumb-separator">›</span>
                   <a href="#" class="breadcrumb-item">Módulo 1</a>
                   <span class="breadcrumb-separator">›</span>
                   <a href="#" class="breadcrumb-item">Aula 2</a>
                   <span class="breadcrumb-separator">›</span>
-                  <a class="breadcrumb-current">Liderança escolar eficaz </a>
+                  <a class="breadcrumb-current"
+                    >Liderança escolar eficaz é transformacional e
+                    compartilhada</a
+                  >
                 </nav>
                 <div class="readtime">
                   <svg
@@ -86,7 +74,9 @@
               </div>
 
               <div class="title">
-                <h1>Liderança escolar eficaz</h1>
+                <h1>
+                  Liderança escolar eficaz é transformacional e compartilhada
+                </h1>
               </div>
 
               <div class="acessibility">
@@ -170,239 +160,322 @@
           </div>
         </div>
       </div>
-      <div class="container body-container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
-            <div>
-              <p data-audio="p1">
-                Na última aula, vimos como o professor atua em um constante
-                equilíbrio entre <span class="cls-circle">autonomia</span> e
-                colaboração, entre a liberdade profissional e a necessidade de
-                adequação às diretrizes da rede.
-                <span class="cls-highlight"
-                  >Essa dinâmica nos permite imaginar a escola como uma
-                  orquestra muito singular.</span
-                >
-              </p>
-              <p data-audio="p2">
-                <span
-                  >Nesse conjunto musical, cada docente interpreta a partitura
+      <div id="contentAula">
+        <div class="container body-container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
+              <div>
+                <p data-audio="p1">
+                  Na última aula, vimos como o professor atua em um constante
+                  equilíbrio entre autonomia e colaboração, entre a liberdade
+                  profissional e a necessidade de adequação às diretrizes da
+                  rede. <span class="cls-highlight" data-color="var(--rough-notation-soft-green)">
+                    Essa dinâmica nos permite imaginar a escola como uma
+                  orquestra muito singular.
+                  </span>
+                </p>
+                <p data-audio="p2">
+                  Nesse conjunto musical, cada docente interpreta a partitura
                   (os documentos curriculares e demais normativas) à sua
-                  maneira</span
-                >, de acordo com seu domínio sobre o instrumento, ou seja, seu
-                conhecimento sobre os conteúdos que leciona e as práticas
-                pedagógicas que realiza.
-              </p>
-              <p data-audio="p3">
-                Tal como em uma orquestra, os professores se organizam em
-                seções, seja pelos anos escolares em que lecionam, seja pelos
-                componentes curriculares em que atuam. E, assim como a seção de
-                percussão pode entrar em descompasso caso um único músico erre o
-                tempo, todo o trabalho de ensino e de gestão do currículo
-                depende da articulação entre os docentes.
-              </p>
-              <p data-audio="p4">
-                Esse grande conjunto, formado por todas as seções, só pode
-                alcançar sua melhor performance quando trabalha de forma
-                integrada,
-                <span
-                  >respeitando os tempos e espaços uns dos outros.
-                  <span class="cls-highlight"
-                    >Para que essa harmonia seja possível</span
-                  >, é essencial a atuação do diretor escolar</span
-                >. Cabe a ele o papel de maestro, capaz de orquestrar os
-                esforços individuais em prol de um projeto coletivo.
-              </p>
-              <p data-audio="p5">
-                Tendo em vista essa complexa dinâmica,
-                <span>não devemos</span>
-
-                pensar na gestão escolar como limitada à coordenação de tarefas
-                isoladas. Muito mais do que isso, devemos imaginar a verdadeira
-                liderança escolar como o
-              </p>
+                  maneira, de acordo com seu domínio sobre o instrumento, ou
+                  seja, seu conhecimento sobre os conteúdos que leciona e as
+                  práticas pedagógicas que realiza.
+                </p>
+                <p data-audio="p3">
+                  Tal como em uma orquestra, os professores se organizam em
+                  seções, seja pelos anos escolares em que lecionam, seja pelos
+                  componentes curriculares em que atuam. E, assim como a seção
+                  de percussão pode entrar em descompasso caso um único músico
+                  erre o tempo, todo o trabalho de ensino e de <span class="cls-underline" data-color="var(--rough-notation-solid-red)">gestão do
+                  currículo</span> depende da articulação entre os docentes.
+                </p>
+                <p data-audio="p4">
+                  Esse grande conjunto, formado por todas as seções, só pode
+                  alcançar sua melhor performance quando trabalha de forma
+                  integrada, respeitando os <span class="cls-circle" data-color="var(--rough-notation-solid-purple)">tempos e espaços</span> uns dos outros.
+                  Para que essa harmonia seja possível, é essencial a atuação do
+                  diretor escolar. Cabe a ele o papel de maestro, capaz de
+                  orquestrar os esforços individuais em prol de um projeto
+                  coletivo.
+                </p>
+                <p data-audio="p5">
+                  Tendo em vista essa complexa dinâmica, não devemos pensar na
+                  gestão escolar como limitada à coordenação de tarefas
+                  isoladas. Muito mais do que isso, devemos imaginar a
+                  verdadeira liderança escolar como o
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container body-container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
-            <div>
-              <div class="c-box box-citacao">
-                <span class="svg-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 60.24 60.24"
-                  >
-                    <g data-name="Página da aula">
-                      <g>
-                        <rect
-                          x="0"
-                          y="0"
-                          width="60.24"
-                          height="60.24"
-                          rx="30.12"
-                          ry="30.12"
-                        />
+        <div class="container body-container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
+              <div>
+                <div class="c-box box-citacao">
+                  <span class="svg-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 60.24 60.24"
+                    >
+                      <g data-name="Página da aula">
                         <g>
-                          <path
-                            d="M34.12,21.12c-1.1,0-2,.9-2,2v6c0,1.1.9,2,2,2,.55,0,1,.45,1,1v1c0,1.1-.9,2-2,2-.55,0-1,.45-1,1v2c0,.55.45,1,1,1,3.31,0,6-2.69,6-6v-10c0-1.1-.9-2-2-2h-3Z"
-                            style="fill: #fff"
+                          <rect
+                            x="0"
+                            y="0"
+                            width="60.24"
+                            height="60.24"
+                            rx="30.12"
+                            ry="30.12"
                           />
-                          <path
-                            d="M23.12,21.12c-1.1,0-2,.9-2,2v6c0,1.1.9,2,2,2,.55,0,1,.45,1,1v1c0,1.1-.9,2-2,2-.55,0-1,.45-1,1v2c0,.55.45,1,1,1,3.31,0,6-2.69,6-6v-10c0-1.1-.9-2-2-2h-3Z"
-                            style="fill: #fff"
-                          />
+                          <g>
+                            <path
+                              d="M34.12,21.12c-1.1,0-2,.9-2,2v6c0,1.1.9,2,2,2,.55,0,1,.45,1,1v1c0,1.1-.9,2-2,2-.55,0-1,.45-1,1v2c0,.55.45,1,1,1,3.31,0,6-2.69,6-6v-10c0-1.1-.9-2-2-2h-3Z"
+                              style="fill: #fff"
+                            />
+                            <path
+                              d="M23.12,21.12c-1.1,0-2,.9-2,2v6c0,1.1.9,2,2,2,.55,0,1,.45,1,1v1c0,1.1-.9,2-2,2-.55,0-1,.45-1,1v2c0,.55.45,1,1,1,3.31,0,6-2.69,6-6v-10c0-1.1-.9-2-2-2h-3Z"
+                              style="fill: #fff"
+                            />
+                          </g>
                         </g>
                       </g>
-                    </g>
-                  </svg>
-                </span>
-                <p>
-                  Nesse conjunto musical, cada docente interpreta a partitura os
-                  documentos.
+                    </svg>
+                  </span>
+                  <p>
+                    <span class="cls-highlight" data-color="var(--rough-notation-soft-yellow)">(...) processo para influenciar professores e outras partes
+                    interessadas na melhoria contínua da escola e da
+                    aprendizagem dos estudantes, não se limitando a ação de um
+                    único indivíduo.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container body-container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
+              <div>
+                <h2>Múltiplas dimensões de uma gestão democrática</h2>
+                <p data-audio="p1">
+                  Longe de diminuir a importância do trabalho do gestor escolar,
+                  essa perspectiva apenas reforça o cenário que vimos na
+                  primeira aula desta formação, quando discutimos a crescente
+                  complexidade e diversidade de incumbências que recaem sobre a
+                  sua função. O gestor, mais do que nunca, precisa lidar
+                  simultaneamente com múltiplas dimensões – <span class="cls-highlight" data-color="var(--rough-notation-soft-blue)">pedagógica,
+                  administrativa, humana e política</span> – e garantir que todas
+                  estejam a serviço da aprendizagem.
+                </p>
+                <p data-audio="p2">
+                  Você deve ter percebido que, ao longo deste DP, temos
+                  tangenciando um assunto – o fortalecimento do caráter
+                  democrático das escolas, tanto em suas práticas cotidianas
+                  quanto em sua forma de administração.
+                </p>
+                <p data-audio="p3">
+                  Tal como em uma orquestra, os professores se organizam em
+                  seções, seja pelos anos escolares em que lecionam, seja pelos
+                  componentes curriculares em que atuam. E, assim como a seção
+                  de percussão pode entrar em descompasso caso um único músico
+                  erre o tempo, todo o trabalho de ensino e de gestão do
+                  currículo depende da articulação entre os docentes.
+                </p>
+                <p data-audio="p4">
+                  Esse grande conjunto, formado por todas as seções, só pode
+                  alcançar sua melhor performance quando trabalha de forma
+                  integrada,respeitando os tempos e espaços uns dos outros.Para que essa harmonia seja possível, <span class="cls-box" data-color="var(--rough-notation-solid-green)">é essencial a atuação do diretor escolar</span>
+                  . Cabe a ele o papel de maestro, capaz de orquestrar os
+                  esforços individuais em prol de um projeto coletivo.
+                </p>
+                <p data-audio="p5">
+                  Tendo em vista essa complexa dinâmica,
+                  <span>não devemos</span>
+
+                  pensar na gestão escolar como limitada à coordenação de
+                  tarefas isoladas. Muito mais do que isso, devemos imaginar a
+                  verdadeira liderança escolar como o papel de um gestor
+                  democrático capaz de orquestrar os esforços individuais em prol de um projeto coletivo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container body-container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
+              <div>
+                <div class="c-box box-dica">
+                  <span class="svg-icon">
+                    <svg
+                      id="Camada_2"
+                      data-name="Camada 2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 60.24 60.24"
+                    >
+                      <g id="Página_da_aula" data-name="Página da aula">
+                        <g>
+                          <rect
+                            x="0"
+                            y="0"
+                            width="60.24"
+                            height="60.24"
+                            rx="30.12"
+                            ry="30.12"
+                          />
+                          <g>
+                            <path
+                              d="M33.52,32.39c.23-1.13.79-1.93,1.7-2.83,1.13-1.02,1.7-2.49,1.7-3.97,0-3.75-3.04-6.8-6.8-6.8s-6.8,3.04-6.8,6.8c0,1.13.23,2.49,1.7,3.97.79.79,1.47,1.7,1.7,2.83"
+                              style="
+                                fill: none;
+                                stroke: #fff;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                              "
+                            />
+                            <path
+                              d="M26.72,36.92h6.8"
+                              style="
+                                fill: none;
+                                stroke: #fff;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                              "
+                            />
+                            <path
+                              d="M27.85,41.45h4.53"
+                              style="
+                                fill: none;
+                                stroke: #fff;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                              "
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </span>
+                  <p>
+                    <span class="cls-highlight" data-color="var(--rough-notation-soft-orange)">Nesse conjunto musical, cada docente interpreta a partitura
+                    os documentos.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="container body-container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
+              <div>
+                <h2>Múltiplas dimensões de uma gestão democrática</h2>
+                <p data-audio="p1">
+                  Longe de diminuir a importância do trabalho do gestor escolar,
+                  essa perspectiva apenas reforça o cenário que vimos na
+                  primeira aula desta formação, quando discutimos a crescente
+                  complexidade e diversidade de incumbências que recaem sobre a
+                  sua função. O gestor, mais do que nunca, precisa lidar
+                  simultaneamente com múltiplas dimensões – <span class="cls-highlight" data-color="var(--rough-notation-soft-blue)">pedagógica,
+                  administrativa, humana e política</span> – e garantir que todas
+                  estejam a serviço da aprendizagem.
+                </p>
+                <p data-audio="p2">
+                  Você deve ter percebido que, ao longo deste DP, temos
+                  tangenciando um assunto – o fortalecimento do caráter
+                  democrático das escolas, tanto em suas práticas cotidianas
+                  quanto em sua forma de administração.
+                </p>
+                <p data-audio="p3">
+                  Tal como em uma orquestra, os professores se organizam em
+                  seções, seja pelos anos escolares em que lecionam, seja pelos
+                  componentes curriculares em que atuam. E, assim como a seção
+                  de percussão pode entrar em descompasso caso um único músico
+                  erre o tempo, todo o trabalho de ensino e de gestão do
+                  currículo depende da articulação entre os docentes.
+                </p>
+                <p data-audio="p4">
+                  Esse grande conjunto, formado por todas as seções, só pode
+                  alcançar sua melhor performance quando trabalha de forma
+                  integrada,respeitando os tempos e espaços uns dos outros.Para que essa harmonia seja possível, <span class="cls-box" data-color="var(--rough-notation-solid-green)">é essencial a atuação do diretor escolar</span>
+                  . Cabe a ele o papel de maestro, capaz de orquestrar os
+                  esforços individuais em prol de um projeto coletivo.
+                </p>
+                <p data-audio="p5">
+                  Tendo em vista essa complexa dinâmica,
+                  <span>não devemos</span>
+
+                  pensar na gestão escolar como limitada à coordenação de
+                  tarefas isoladas. Muito mais do que isso, devemos imaginar a
+                  verdadeira liderança escolar como o papel de um gestor
+                  democrático capaz de orquestrar os esforços individuais em prol de um projeto coletivo.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-<div class="container body-container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
-            <div>
-              <p data-audio="p1">
-                Na última aula, vimos como o professor atua em um constante
-                equilíbrio entre <span class="cls-circle">autonomia</span> e
-                colaboração, entre a liberdade profissional e a necessidade de
-                adequação às diretrizes da rede.
-                <span class="cls-highlight"
-                  >Essa dinâmica nos permite imaginar a escola como uma
-                  orquestra muito singular.</span
-                >
-              </p>
-              <p data-audio="p2">
-                <span
-                  >Nesse conjunto musical, cada docente interpreta a partitura
-                  (os documentos curriculares e demais normativas) à sua
-                  maneira</span
-                >, de acordo com seu domínio sobre o instrumento, ou seja, seu
-                conhecimento sobre os conteúdos que leciona e as práticas
-                pedagógicas que realiza.
-              </p>
-              <p data-audio="p3">
-                Tal como em uma orquestra, os professores se organizam em
-                seções, seja pelos anos escolares em que lecionam, seja pelos
-                componentes curriculares em que atuam. E, assim como a seção de
-                percussão pode entrar em descompasso caso um único músico erre o
-                tempo, todo o trabalho de ensino e de gestão do currículo
-                depende da articulação entre os docentes.
-              </p>
-              <p data-audio="p4">
-                Esse grande conjunto, formado por todas as seções, só pode
-                alcançar sua melhor performance quando trabalha de forma
-                integrada,
-                <span
-                  >respeitando os tempos e espaços uns dos outros.
-                  <span class="cls-highlight"
-                    >Para que essa harmonia seja possível</span
-                  >, é essencial a atuação do diretor escolar</span
-                >. Cabe a ele o papel de maestro, capaz de orquestrar os
-                esforços individuais em prol de um projeto coletivo.
-              </p>
-              <p data-audio="p5">
-                Tendo em vista essa complexa dinâmica,
-                <span>não devemos</span>
+      <!-- SVG Scroll Animation -->
+      <!-- <svg
+        id="scrr-animation"
+        viewBox="0 0 1500 3002.67"
+        class="squiggle"
+      >
+<path
+  d="
+    M3.1.64
+    c.73,3.49,1.47,6.97,2.23,10.45
+    M7.66,21.52
+    c4.38,19.11,9.29,38.07,14.7,56.85
+    M23.85,83.49
+    c55.16,187.81,161.13,356.9,301.68,479
+    59.25,51.47,129.84,96.38,205.68,91.26
+    75.84-5.12,151.74-79.78,139.57-162.07
+    -11.15-75.41-93.75-119.86-160.81-98.55
+    -67.06,21.31-114.23,92.65-129.42,167.54
+    -15.19,74.9-3.37,152.89,14.58,226.61
+    26.58,109.21,67.92,216.59,137.96,298.88
+    71.77,84.33,168.5,136.77,263.01,187.44
+    94.99,50.93,189.99,101.87,285.03,152.69
+    50.86,27.2,102.59,54.99,143.66,97.64
+    89.99,93.46,113.19,250.36,70.25,379.45
+    -42.94,129.09-144.12,229.38-259.7,281.78
+    -115.58,52.4-244.27,60.52-367.64,43.71
+    -91.49-12.47-199.08-58.89-209.9-159.6
+    -10.22-95.11,83.99-174.51,171.07-170.84
+    87.08,3.66,162.36,65.23,224.25,131.97
+    169.38,182.66,282.1,419.38,373.97,660.4
+    39.64,103.99,77.28,212,143.46,297.36
+    M1373.83,2992.35
+    c2.21,2.79,4.46,5.56,6.74,8.3
+  "
 
-                pensar na gestão escolar como limitada à coordenação de tarefas
-                isoladas. Muito mais do que isso, devemos imaginar a verdadeira
-                liderança escolar como o
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container body-container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 m-auto">
-            <div>
-              <div class="c-box box-dica">
-                <span class="svg-icon">
-                  <svg
-                    id="Camada_2"
-                    data-name="Camada 2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 60.24 60.24"
-                  >
-                    <g id="Página_da_aula" data-name="Página da aula">
-                      <g>
-                        <rect
-                          x="0"
-                          y="0"
-                          width="60.24"
-                          height="60.24"
-                          rx="30.12"
-                          ry="30.12"
-                        />
-                        <g>
-                          <path
-                            d="M33.52,32.39c.23-1.13.79-1.93,1.7-2.83,1.13-1.02,1.7-2.49,1.7-3.97,0-3.75-3.04-6.8-6.8-6.8s-6.8,3.04-6.8,6.8c0,1.13.23,2.49,1.7,3.97.79.79,1.47,1.7,1.7,2.83"
-                            style="
-                              fill: none;
-                              stroke: #fff;
-                              stroke-linecap: round;
-                              stroke-linejoin: round;
-                              stroke-width: 2px;
-                            "
-                          />
-                          <path
-                            d="M26.72,36.92h6.8"
-                            style="
-                              fill: none;
-                              stroke: #fff;
-                              stroke-linecap: round;
-                              stroke-linejoin: round;
-                              stroke-width: 2px;
-                            "
-                          />
-                          <path
-                            d="M27.85,41.45h4.53"
-                            style="
-                              fill: none;
-                              stroke: #fff;
-                              stroke-linecap: round;
-                              stroke-linejoin: round;
-                              stroke-width: 2px;
-                            "
-                          />
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </span>
-                <p>
-                  Nesse conjunto musical, cada docente interpreta a partitura os
-                  documentos.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+/>
+      </svg> -->
     </div>
+
+    <!-- Scripts -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
       lucide.createIcons();
     </script>
     <script src="https://unpkg.com/rough-notation@0.5.1/lib/rough-notation.iife.js"></script>
     <script type="module" src="assets/js/rough-notation-core.js"></script>
-    
+
+    <script src="/assets/js/scroll-path-animation.js"></script>
+
     <!-- GSAP + ScrollTrigger + DrawSVGPlugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/DrawSVGPlugin.min.js"></script>
-    <script src="assets/js/scroll-path-animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/DrawSVGPlugin.min.js"></script> -->
+
+    <!-- Incluindo a biblioteca pdf-lib via CDN -->
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script src="assets/js/pdf-lib.js"></script>
     <!--*** COMENTADO POIS NÃO SERÁ USADO AINDA ***-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
   </body>

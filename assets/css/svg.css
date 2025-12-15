@@ -1,0 +1,15 @@
+svg.squiggle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+svg.squiggle path{
+    fill: none;
+    stroke: #FF6B35;
+    stroke-width: 4;
+    stroke-dasharray: 20;
+}
