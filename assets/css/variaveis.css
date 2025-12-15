@@ -13,7 +13,7 @@
 	
 	/* Utility Sizes */
 	--fs-breadcrumb: clamp(0.775rem, 0.7rem + 0.3vw, .9rem);
-	--fs-readtime: clamp(0.9375rem, 0.875rem + 0.25vw, 1.0625rem);
+	--fs-readtime: clamp(0.84375rem, 0.7875rem + 0.225vw, 0.95625rem);
 	
 	/* Typography - Margin Top */
 	--mt-h1: clamp(2rem, 1.8182rem + 0.7273vw, 2.4rem);
@@ -44,14 +44,41 @@
 	
 	/* Colors */
 	--color-text-primary: #333333;
-	--color-text-secondary: #666666;
-	--color-text-muted: #999999;
+	--color-text-informative: #999999;
+	--color-readtime: #c0c0c0;
+	--color-border-bottom-breadcrumb: #dbdbdb;
 	--color-accent-primary: #FF6B35;
 	--color-accent-secondary: #FF8C5A;
-    --color-highlight1: #3474fe;
-    --color-highlight2: #30e9b1;
-    --color-highlight3: #ffcc00;
-    --color-highlight4: #ff6e3f;
+
+	/* Red */
+	--red-medium: #cc3333;
+	--red-light: #ffbfbf;
+	--red-dark: #802626;
+
+	/* Yellow */
+	--yellow-medium: #e3b10b;
+	--yellow-light: #fff3cc;
+	--yellow-dark: #806b26;
+
+	/* Blue */
+	--blue-medium: #3474fe;
+	--blue-light: #ccdcff;
+	--blue-dark: #264380;
+
+	/* Orange */
+	--orange-medium: #ff6e3f;
+	--orange-light: #ffefeb;
+	--orange-dark: #803c27;
+
+	/* Green */
+	--green-medium: #30d183;
+	--green-light: #ccffe6;
+	--green-dark: #268054;
+
+	/* Purple */
+	--purple-medium: #cf37e0;
+	--purple-light: #f1cff6;
+	--purple-dark: #500259;
 
 	/* Rough Notation Colors */
 	--rough-notation-solid-orange: #ff6e3f;

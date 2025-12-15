@@ -1,39 +1,42 @@
 /* Breadcrumb Navigation */
 .head-container .sec-breadcrumb {
   margin-bottom: clamp(2rem, 1.8182rem + 0.7273vw, 2.5rem);
+  
 }
 
 .head-container .breadcrumb {
   display: flex;
   align-items: center;
-  gap: clamp(0.5rem, 0.4545rem + 0.1818vw, 0.625rem);
+  gap: clamp(0.8rem, 0.8545rem + 0.1818vw, 1.5rem);
   font-size: var(--fs-breadcrumb);
   flex-wrap: wrap;
-  padding: 0;
+  padding: 1rem 0;
   margin: 0;
+  border-bottom: 2px solid var(--color-border-bottom-breadcrumb);
 }
 
 .head-container .breadcrumb-item {
   color: var(--color-text-secondary);
   text-decoration: none;
   transition: color 200ms ease;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
 
 .head-container .breadcrumb-item:hover {
-  color: var(--color-accent-primary);
+  color: var(--red-medium);
+  font-weight: 400;
 }
 
 .head-container .breadcrumb-separator {
-  color: var(--color-text-muted);
-  font-weight: 300;
+  color: var(--red-medium);
+  font-weight: 500;
   user-select: none;
   margin: 0;
 }
 
 .head-container .breadcrumb-current {
-  color: var(--color-accent-primary);
+  color: var(--red-medium);
   text-decoration: none;
   font-weight: 400;
   margin: 0;
@@ -43,11 +46,12 @@
 .head-container .readtime {
   margin-top: clamp(1rem, 0.9091rem + 0.3636vw, 1.25rem);
   margin-bottom: clamp(2rem, 1.8182rem + 0.7273vw, 2.5rem);
+  text-align: right;
 }
 
 .head-container .readtime span {
   font-size: var(--fs-readtime);
-  color: var(--color-text-secondary);
-  font-style: italic;
+  color: var(--color-readtime);
+  font-style: normal;
   font-weight: 400;
 }

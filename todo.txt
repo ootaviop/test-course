@@ -1,5 +1,1 @@
-[x] - Fazer header da aula
-    -> Bread-crumb
-    -> Titulo
-    -> Tempo de leitura
-
+- Colocar margin-bottom e gap do breadcrumb no arquivo de variáveis

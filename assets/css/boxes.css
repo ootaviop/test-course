@@ -1,0 +1,42 @@
+
+
+.box-citacao{
+    margin: 3rem auto;
+    border: 2px dashed var(--blue-light);
+    border-radius: 30px;
+    padding: 3rem 2.4rem 1.6rem 2.4rem;
+    display: block;
+    max-width: 70%;
+}
+
+.box-citacao .svg-icon{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    fill: var(--blue-medium);
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: -4.5rem;
+}
+
+.box-dica{
+    margin: 3rem auto;
+    border: none;
+    background-color: var(--orange-light);
+    border-radius: 30px;
+    padding: 3rem 2.4rem 1.6rem 2.4rem;
+    display: block;
+    max-width: 70%;
+}
+
+.box-dica .svg-icon{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    fill: var(--orange-medium);
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: -4.5rem;
+}

@@ -1,0 +1,57 @@
+.acessibility {
+
+}
+
+
+
+.acessibility .btn-acessibility {
+    font-size: var(--fs-small);
+    border: none;
+    padding: .8rem 1.5rem;
+    border-radius: 30px;
+    min-width: 150px;
+}
+
+.acessibility .btn-acessibility .lucide{
+    margin-right: .6rem;
+}
+
+.acessibility .btn-pdf {
+    background-color: var(--purple-light);
+}
+
+.acessibility .btn-pdf:hover{
+    background-color: var(--purple-medium);
+    color: white;
+}
+
+.acessibility .btn-audio {
+    background-color: var(--blue-light);
+}
+
+.acessibility .btn-audio:hover{
+    background-color: var(--blue-medium);
+    color: white;
+}
+
+.acessibility .btn-braile {
+    background-color: var(--green-light);
+}
+
+.acessibility .btn-braile:hover{
+    background-color: var(--green-medium);
+    color: white;
+}
+
+
+@media(max-width: 576px){
+    .acessibility {
+        flex-wrap: wrap;
+}
+}
+
+@media(max-width: 340px){
+    .acessibility .btn-acessibility {
+       min-width: 100%;
+}
+}

@@ -1,0 +1,34 @@
+/* ============================================
+   SCROLL PATH ANIMATION - SVG Styles
+   ============================================ */
+
+.scroll-path-svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* Desktop e Tablet - Animação ativa */
+@media (min-width: 768px) {
+  .scroll-path-svg {
+    display: block;
+  }
+}
+
+/* Mobile - Desabilitar animação */
+@media (max-width: 767px) {
+  .scroll-path-svg {
+    display: none;
+  }
+}
+
+/* Otimização de performance */
+#drawn-path {
+  will-change: stroke-dashoffset;
+  transform: translateZ(0);
+}
